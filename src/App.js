@@ -17,7 +17,9 @@ function App() {
     ]
   return (
     <div className="App">
-    <Products name={response[0].ItemName} ></Products>
+    <Products name={response[0].ItemName} >
+      How to pass the children value
+    </Products>
     <ItemDate day  ={response[0].ItemDay} year={response[1].ItemYear}></ItemDate>
     <Products name={response[1].ItemName} ></Products>
     <ItemDate day  ={response[1].ItemDay} year={response[1].ItemYear}></ItemDate>

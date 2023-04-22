@@ -4,6 +4,7 @@ function Products(props){
     return(
         <div>
             {props.name}
+            {props.children}
         </div>
     );
 }
